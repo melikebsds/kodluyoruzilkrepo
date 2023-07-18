@@ -24,4 +24,6 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Markdown Ekran Görüntüsü
 ![image](https://github.com/melikebsds/kodluyoruzilkrepo/assets/68199253/88ee790b-1dc7-4140-bf3f-d29611625871)
