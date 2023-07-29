@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  header {
+    background-color: rgb(202, 189, 189);
+    color: #fff;
+    padding: 10px;
+  }
+  nav {
+    background-color: #444;
+    padding: 5px;
+    
+  }
+  nav a {
+    color: #fff;
+    padding: 10px;
+  }
+  /*
+  nav a:hover {
+    background-color: #555;
+  }*/
+  .content {
+    padding: 20px;
+  }
+  /* Inline CSS ile liste stilini belirleme */
+ ol, ul {
+    list-style-position: inside;
+  }
+  
+  h1 {
+    color:cornflowerblue;
+  }
+
+  h2 {
+    color:#649543;
+  }
