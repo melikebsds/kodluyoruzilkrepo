@@ -1,0 +1,48 @@
+.clr-gray {
+    background-color: gray;
+}
+
+.clr-light-green {
+    background-color: lightgreen;
+}
+
+.clr-green {
+    background-color: green;
+}
+
+.clr-dark-green {
+    background-color: darkgreen;
+}
+
+div > p {
+    margin: 5px;
+    padding: 0px;
+}
+
+.box {
+    width: 100%;
+    margin: 0px 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+.inpt-search {
+  width: 400px;
+  height: 20px;
+}
+
+button {
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.container {
+    display: flex;
+  }
