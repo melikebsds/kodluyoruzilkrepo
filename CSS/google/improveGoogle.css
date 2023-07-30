@@ -1,0 +1,162 @@
+div > p {
+    margin: 5px;
+    padding: 0px;
+}
+
+.fotom {
+    border-radius: 50px;
+    margin: 0px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    padding-left: 5px;
+}
+
+.header-right div {
+    margin-right: 20px;
+}
+
+.header-right-right img {
+    margin-right: 10px;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 150px; /* İsteğe bağlı: Resmin yüksekliğine göre ayarlayın */
+}
+
+.google img {
+  margin-top: auto;
+}
+
+.search-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.search img {
+    width: 24px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 30px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 15px auto;
+    width: auto;
+    max-width: 500px;
+}
+
+.search-left {
+    margin-right: auto;
+}
+
+.search-right {
+    margin-left: auto;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding-top: 18px;
+    display: block;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+.turkish {
+    color: #4d5156;
+    display: inline-block;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footer div {
+    display: flex;
+}
+
+.footer-top {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+} 
+
+.footer-right {
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.footer-bottom a {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+.inpt-search {
+  width: 400px;
+  height: 20px;
+}
