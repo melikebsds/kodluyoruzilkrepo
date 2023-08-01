@@ -1,0 +1,11 @@
+.text-align-cntr{
+    text-align: center;
+}
+
+.jumbotron, .card-body {
+    background-color: #E9ECEF  ;
+}
+
+.aletler {
+    list-style-position: inside;
+}
