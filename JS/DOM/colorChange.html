@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Çember Rengi Değiştirme</title>
+        <style>
+            .circle {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                border-radius: 50%;
+                margin: 50px auto;
+            }
+            .red {
+                background-color: red;
+            }
+            .blue {
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="circle" id="circle"></div>
+        <button onclick="changeColor()">Renk Değiştir</button>
+
+        <script>
+            function changeColor() {
+                const circle = document.getElementById("circle");
+                circle.classList.toggle("red");
+                circle.classList.toggle("blue");
+            }
+        </script>
+    </body>
+</html>
